@@ -20,7 +20,6 @@ const { NotImplementedError } = require('../extensions/index.js');
  * 
  */
 class VigenereCipheringMachine {
-  directMachine = true;
   constructor(isDirect) {
     if (arguments.length === 0) {
       this.directMachine = true;
