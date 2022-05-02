@@ -20,7 +20,6 @@ function getCommonCharacterCount(s1, s2) {
     } else {
       return 1;
     }
-    ;
   } else {
     const str1 = [...new Set(s1.split(''))];
     const str2 = s2.split('');
